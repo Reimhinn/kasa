@@ -1,11 +1,14 @@
 import React from 'react'
 import HomePic from './HomePic'
 import homePicAbout from '../assets/home-pic-about.jpg'
+import Dropdowns from './Dropdowns'
 
-function About() {
-
+function About () {
   return (
-    <div><HomePic image={homePicAbout} /></div>
+    <div id='about'>
+      <HomePic image={homePicAbout} />
+      <Dropdowns />
+    </div>
   )
 }
 

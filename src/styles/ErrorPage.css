@@ -7,18 +7,18 @@
 
 #h1-404 {
   font-size: 288px;
-  color: #FF6060;
+  color: var(--primary);
   margin-bottom: 0;
   margin-top: 130px;
 }
 
 #error-message {
   font-size: 36px;
-  color: #FF6060;
+  color: var(--primary);
   margin-bottom: 182px;
 }
 
 #error-link {
-  color: #FF6060;
+  color: var(--primary);
   font-size: 18px;
 }

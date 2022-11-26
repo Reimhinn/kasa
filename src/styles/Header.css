@@ -2,11 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 40px 100px;
 }
 
 .header-link {
   font-size: 24px;
-  color: #FF6060;
+  color: var(--primary);
   margin-left: 57px;
   text-decoration: none;
 }

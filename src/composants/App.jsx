@@ -4,6 +4,7 @@ import Header from './Header';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import About from './About';
 import ErrorPage from './ErrorPage';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
 
 
         </Routes>
+
+      <Footer />
+
       </Router>
 
     </div>

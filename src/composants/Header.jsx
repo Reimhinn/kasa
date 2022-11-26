@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header id='header'>
-      <img id='kasa-logo' src={logo} alt="kasa logo" />
+     <Link to="/" onClick={() => window.location.reload()}><img id='kasa-logo' src={logo} alt="kasa logo" /></Link>
       <nav id='header-nav'>
         <Link  className='header-link' to="/">Accueil</Link>
         <Link  className='header-link' to="/about">A Propos</Link>
