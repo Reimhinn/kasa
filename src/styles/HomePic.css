@@ -1,0 +1,24 @@
+.home-pic {
+  overflow: hidden;
+  position: relative;
+  height: 223px;
+  margin-top: 120px;
+}
+
+
+#home-img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+#home-title {
+  position: absolute;
+  top: 50px;
+  left: 496px;
+  font-size: 48px;
+  color: white;
+  font-weight: 500;
+}

@@ -1,0 +1,24 @@
+#error-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#h1-404 {
+  font-size: 288px;
+  color: #FF6060;
+  margin-bottom: 0;
+  margin-top: 130px;
+}
+
+#error-message {
+  font-size: 36px;
+  color: #FF6060;
+  margin-bottom: 182px;
+}
+
+#error-link {
+  color: #FF6060;
+  font-size: 18px;
+}
