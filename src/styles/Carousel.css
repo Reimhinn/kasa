@@ -1,0 +1,35 @@
+.carousel  {
+  height: 572px;
+}
+
+.carousel-pictures {
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 80px;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.carousel-pictures:hover > .arrows {
+  opacity: 1;
+}
+
+.arrows.left {
+  left: 23px;
+}
+
+.arrows.right {
+  right: 23px;
+}

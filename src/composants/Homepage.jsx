@@ -1,12 +1,15 @@
 import React from 'react'
-import HomePic from './HomePic';
-import homePic from "../assets/home-pic.jpg"
-import Gallery from './Gallery';
+import HomePic from './HomePic'
+import homePic from '../assets/home-pic.jpg'
+import Gallery from './Gallery'
 import '../styles/Homepage.css'
 
-function Homepage() {
+function Homepage () {
   return (
-    <div id='homePage'><HomePic image={homePic} title='Chez vous, partout et ailleurs' /><Gallery /></div>
+    <div id='homePage'>
+      <HomePic image={homePic} title='Chez vous, partout et ailleurs' />
+      <Gallery/>
+    </div>
   )
 }
 

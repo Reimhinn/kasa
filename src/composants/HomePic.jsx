@@ -1,14 +1,11 @@
 import React from 'react'
-import "../styles/HomePic.css"
+import '../styles/HomePic.css'
 
-
-
-function HomePic(props) {
-
+function HomePic ({ image, title }) {
   return (
     <div className='home-pic'>
-      <img id='home-img' src={props.image} alt="" />
-      <h1 id='home-title'>{props.title}</h1>
+      <div id='home-img' style={{ backgroundImage: `url(${image})` }}></div>
+      <h1 id='home-title'>{title}</h1>
     </div>
   )
 }

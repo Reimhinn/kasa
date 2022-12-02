@@ -4,3 +4,24 @@
   align-items: center;
   margin-right: 0;
 }
+
+#location-dropdowns {
+  display: flex;
+  justify-content: space-between;
+}
+
+#location-dropdowns > .dropdown-container {
+
+  width: 48%;
+}
+
+#location-dropdowns > .dropdown-container > .dropdown {
+  height: 320px;
+}
+
+#location-dropdowns > .dropdown-container > .dropdown > .dropdown-description > ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

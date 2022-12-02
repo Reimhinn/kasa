@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 100px;
+  margin: var(--wrap);
 }
 
 .header-link {
   font-size: 24px;
   color: var(--primary);
   margin-left: 57px;
-  text-decoration: none;
 }
 
-.header-link:focus, .header-link:hover {
-  text-decoration: underline;
+.header-link:hover {
+  text-decoration: underline !important;
 }

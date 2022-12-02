@@ -7,7 +7,7 @@ function About () {
   return (
     <div id='about'>
       <HomePic image={homePicAbout} />
-      <Dropdowns />
+      <Dropdowns dropdowncategory = 'about'/>
     </div>
   )
 }

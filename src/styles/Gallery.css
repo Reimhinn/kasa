@@ -2,8 +2,7 @@
   background-color: var(--secondary);
   height: 100%;
   padding: 56px 50px;
-  padding-right: 0;
-  padding-left: 75px;
+  justify-content: center;
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
