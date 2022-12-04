@@ -11,7 +11,7 @@ function LocationCard () {
 
   return data.map(location => {
     return (
-        <Link className='location-card' key={location.id} to={`${location.title}/${location.id}`}>
+        <Link className='location-card' reloadDocument key={location.id} to={`${location.title}/${location.id}`}>
           <img className='location-cover' src={location.cover} alt={location.title} />
           <h2 className='location-title'>{location.title}</h2>
         </Link>

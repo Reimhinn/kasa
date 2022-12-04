@@ -2,13 +2,11 @@ import { React, useState } from 'react'
 import '../styles/Dropdown.css'
 
 function Dropdown ({ title, description }) {
-  const [open, setOpen] = useState(false)
-
-  console.log(description)
+  const [open, setOpen] = useState(true)
 
   const angleClassname = open
-    ? 'fa-solid fa-angle-up arrow-up'
-    : 'fa-solid fa-angle-down arrow-down'
+    ? 'fa-solid fa-angle-up arrow arrow-up'
+    : 'fa-solid fa-angle-down arrow arrow-down'
 
   return (
     <div className='dropdown-container'>

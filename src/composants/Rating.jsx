@@ -1,6 +1,7 @@
 import React from 'react'
 import redStar from '../assets/redstar.svg'
 import greyStar from '../assets/greystar.svg'
+import '../styles/Rating.css'
 
 function Rating ({ rating }) {
   console.log(rating)

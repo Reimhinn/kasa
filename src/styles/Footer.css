@@ -12,5 +12,10 @@
 
 #logo-footer-container {
   text-align: center;
-  margin-right: 50px;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+#kasa-logo-footer {
+  margin-bottom: 15px;
 }

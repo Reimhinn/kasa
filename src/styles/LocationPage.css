@@ -33,6 +33,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
 }
 
 #user-profile {
@@ -57,4 +59,62 @@
   border-radius: 50%;
   background-position: center;
   background-size: cover;
+}
+
+#stars {
+  width: 200px;
+}
+
+@media (max-width: 1024px) {
+  #location-user {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 14px
+  }
+
+  #carousel-title {
+    font-size: 28px;
+  }
+
+  #carousel-location {
+    font-size: 16px;
+  }
+
+  #user-picture {
+    height: 46px;
+    width: 46px;
+  }
+
+
+  #location-header  {
+    flex-direction: column;
+  }
+
+  #location-dropdowns {
+    flex-direction: column;
+  }
+
+  #user-profile {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  #carousel-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  #carousel-location {
+    font-size: 14px;
+  }
+
+  #user-picture {
+    height: 32px;
+    width: 32px;
+  }
+
+  #user-name {
+    font-size: 12px;
+  }
 }

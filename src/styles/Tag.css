@@ -6,4 +6,20 @@
   font-size: 14px;
   font-weight: 500;
   margin-right: 10px;
+  padding: 5px 12px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .tag {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 490px) {
+  .tag {
+    font-size: 10px;
+  }
 }

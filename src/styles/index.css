@@ -3,3 +3,9 @@
   --secondary: #F6F6F6;
   --wrap: 40px 100px;
 }
+
+@media (max-width: 800px) {
+  :root {
+    --wrap: 20px;
+  }
+}

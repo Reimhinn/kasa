@@ -11,7 +11,6 @@
 }
 
 #location-dropdowns > .dropdown-container {
-
   width: 48%;
 }
 
@@ -20,8 +19,22 @@
 }
 
 #location-dropdowns > .dropdown-container > .dropdown > .dropdown-description > ul {
-
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#location-dropdowns > .dropdown-container > .dropdown-button {
+  height: 55px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  #location-dropdowns > .dropdown-container {
+    width: 100%;
+  }
+
+  #location-dropdowns > .dropdown-container > .dropdown {
+    height: 100%;
+  }
 }

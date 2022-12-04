@@ -2,6 +2,7 @@ import React from 'react'
 import HomePic from './HomePic'
 import homePicAbout from '../assets/home-pic-about.jpg'
 import Dropdowns from './Dropdowns'
+import '../styles/About.css'
 
 function About () {
   return (

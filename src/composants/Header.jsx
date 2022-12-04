@@ -18,7 +18,7 @@ function Header () {
             textDecoration: location.pathname === '/' ? 'underline' : 'none'
           }}
           className='header-link'
-          to='/'
+          to='/' reloadDocument
         >
           Accueil
         </Link>
@@ -28,7 +28,7 @@ function Header () {
               location.pathname === '/about' ? 'underline' : 'none'
           }}
           className='header-link'
-          to='/about'
+          to='/about' reloadDocument
         >
           A Propos
         </Link>

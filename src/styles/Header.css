@@ -14,3 +14,15 @@
 .header-link:hover {
   text-decoration: underline !important;
 }
+
+@media (max-width: 650px) {
+  #kasa-logo {
+    width: 145px;
+  }
+
+  .header-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+}

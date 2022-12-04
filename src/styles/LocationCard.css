@@ -1,7 +1,7 @@
 .location-card {
-  width: calc(33% - 60px);
-  min-width: 450px;
-  height: 450px;
+  min-width: 340px;
+  width: 340px;
+  height: 340px;
   background-color: var(--primary);
   border-radius: 10px;
   transition: all 550ms;
@@ -20,9 +20,36 @@
 }
 
 .location-title {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
-  margin-top: 35px;
   font-weight: 500;
   padding: 0 20px;
 }
+
+@media (max-width: 1040px) {
+  .location-card {
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .location-title {
+    font-size: 12px;
+    padding: 0 12px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .location-card {
+    min-width: 325px;
+    width: 325px;
+    height: 255px;
+  }
+
+  .location-title {
+    margin-top: 5px;
+    font-size: initial;
+  }
+}
+

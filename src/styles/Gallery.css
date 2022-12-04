@@ -6,7 +6,15 @@
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 60px;
-  column-gap: 60px ;
+  row-gap: 50px;
+  column-gap: 50px ;
   margin: var(--wrap);
+}
+
+@media (max-width: 490px) {
+  #gallery {
+    background-color: white;
+    padding-top: 0;
+    row-gap: 20px;
+  }
 }

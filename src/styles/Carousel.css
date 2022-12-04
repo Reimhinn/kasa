@@ -4,6 +4,7 @@
 
 .carousel-pictures {
   height: 100%;
+  min-width: 335px;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -32,4 +33,35 @@
 
 .arrows.right {
   right: 23px;
+}
+
+
+@media (max-width: 650px) {
+  .carousel {
+    height: 256px;
+  }
+  .arrows {
+    font-size: 50px;
+  }
+  .arrows.right {
+    right: 10px;
+  }
+  .arrows.left {
+    left: 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  .carousel-pictures {
+    border-radius: 10px;
+  }
+  .arrows {
+    font-size: 25px;
+  }
+  .arrows.right {
+    right: 3px;
+  }
+  .arrows.left {
+    left: 3px;
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import '../styles/LocationPage.css'
 import { useParams } from 'react-router-dom'
 import { DataContext } from './App'
@@ -9,6 +9,10 @@ import Dropdowns from './Dropdowns'
 
 function LocationPage () {
   const context = useContext(DataContext)
+
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   const params = useParams()
 
