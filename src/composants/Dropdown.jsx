@@ -21,7 +21,7 @@ function Dropdown ({ title, description }) {
         ></i>
       </div>
       <div className={`dropdown ${open ? 'active' : 'inactive'}`}>
-        <div className={`dropdown-description`}>{Array.isArray(description) ? <ul>{description.map(element => { return (<li>{element}</li>) })}</ul> : <div>{description}</div>}</div>
+        <div className={`dropdown-description`}>{Array.isArray(description) ? <ul>{description.map((element, index) => { return (<li key={index}>{element}</li>) })}</ul> : <div>{description}</div>}</div>
       </div>
     </div>
   )

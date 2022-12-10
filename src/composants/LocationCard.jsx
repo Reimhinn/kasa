@@ -8,7 +8,6 @@ function LocationCard () {
   const data = useContext(DataContext)
 
 
-
   return data.map(location => {
     return (
         <Link className='location-card' reloadDocument key={location.id} to={`${location.title}/${location.id}`}>

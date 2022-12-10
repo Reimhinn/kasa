@@ -4,7 +4,6 @@ import greyStar from '../assets/greystar.svg'
 import '../styles/Rating.css'
 
 function Rating ({ rating }) {
-  console.log(rating)
   return (
     <div id='stars'>
       <img className='star' src={rating > 0 ? redStar : greyStar} alt='' />
